@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alex&#39;s Open Source Projects</title>
+    <description>Alex&#39;s Open Source Projects</description>
+    <link>http://angelim.github.io/</link>
+    <atom:link href="http://angelim.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 27 Apr 2017 12:24:02 -0300</pubDate>
+    <lastBuildDate>Thu, 27 Apr 2017 12:24:02 -0300</lastBuildDate>
+    <generator>Jekyll v3.1.1</generator>
+    
+      <item>
+        <title>Snowplow Request Validator</title>
+        <description>&lt;p&gt;Debug your Snowplow implementation locally, without resorting to Snowplow’s ETL tasks. It’s like Facebook’s URL Linter, but for Snowplow.&lt;/p&gt;
+
+&lt;p&gt;Snowly is a minimal Collector implementation intended to run on your development environment. It comes with a comprehensive validation engine, that will point out any schema requirement violations. You can easily validate your event requests before having to emit them to a cloudfront, closure or scala collector.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 20 Sep 2016 21:01:50 -0300</pubDate>
+        <link>http://angelim.github.io/snowly</link>
+        <guid isPermaLink="true">http://angelim.github.io/snowly</guid>
+        
+        <category>Snowplow</category>
+        
+        <category>Ruby</category>
+        
+        <category>JSON Schema</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Rails Redshift Replicator</title>
+        <description>&lt;p&gt;Replicate your ActiveRecord tables to Redshift.&lt;/p&gt;
+
+&lt;p&gt;There are several reasons one should choose to replicate data to Redshift. Most of them are related to Data Analysis or Reporting activities. Maybe you’re using tools like Snowplow and loading events data directly into Redshift, but still needs to enrich those at runtime with your resources tables. Maybe you have a huge amount of data on your resources tables and were asked to build some complex reports. You may have even been tracking events on a local database and realized data analysis is too heavy for some database engines.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 13 May 2016 00:00:00 -0300</pubDate>
+        <link>http://angelim.github.io/rails-redshift-replicator/</link>
+        <guid isPermaLink="true">http://angelim.github.io/rails-redshift-replicator/</guid>
+        
+        <category>Ruby</category>
+        
+        <category>Redshift</category>
+        
+        <category>ActiveRecord</category>
+        
+        
+        <category>welcome</category>
+        
+      </item>
+    
+      <item>
+        <title>Mongoid Included</title>
+        <description>&lt;p&gt;Helper module to embed documents using the parent’s namespace while preserving url helpers consistency. This is useful to organize your project if you heavily rely on embedded documents.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 26 Jan 2012 22:02:04 -0200</pubDate>
+        <link>http://angelim.github.io/mongoid-included</link>
+        <guid isPermaLink="true">http://angelim.github.io/mongoid-included</guid>
+        
+        <category>Mongoid</category>
+        
+        <category>Rails</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Voteable Mongo</title>
+        <description>&lt;p&gt;** Collaborator **&lt;/p&gt;
+
+&lt;p&gt;Add up / down voteability to Mongoid and MongoMapper documents. Optimized for speed by using only ONE request to validate, update, and retrieve updated data.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 24 Jan 2012 22:02:34 -0200</pubDate>
+        <link>http://angelim.github.io/voteable-mongo</link>
+        <guid isPermaLink="true">http://angelim.github.io/voteable-mongo</guid>
+        
+        <category>Mongoid</category>
+        
+        <category>MongoMapper</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Mongoid Mirrored</title>
+        <description>&lt;p&gt;Helper module for mirroring root documents in embedded collections.&lt;/p&gt;
+
+&lt;p&gt;Mongoid provides an intuitive interface to reference documents among different collections, but that comes at a cost. As MongoDB doesn’t support joins and relying heavily on relational data reads, that could be a problem for some applications. Unfortunately, Mongoid doens’t support embedding collections while maintaining an independent root collection and that is exactly the intention with mirrored documents.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 24 May 2011 21:02:09 -0300</pubDate>
+        <link>http://angelim.github.io/mongoid-mirrored</link>
+        <guid isPermaLink="true">http://angelim.github.io/mongoid-mirrored</guid>
+        
+        <category>Mongoid</category>
+        
+        <category>Rails</category>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
